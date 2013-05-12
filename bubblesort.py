@@ -10,10 +10,11 @@ import sys,time
 input_array=[]
 if (len(sys.argv) < 2):
     print ""
-    print "Please input list items as arguments"
+    print "Please input list items"
     print "\nExample: ./bubblesort.py <item1> [item2] [item3] [item4] ..."
     quit()
 i=1
+#loop for checking numbers
 while (i < len(sys.argv)):
     input_array.append(int(sys.argv[i]))
     i+=1
@@ -38,6 +39,7 @@ def bubbleSort(array):
 count = 0
 time1 = time.time()
 arrayResult = str(bubbleSort(input_array))
+#sorted array after bubble sort
 print ""
 print "Sorted after " + str(count) + " tries."
 print "Sorted:  " + arrayResult 
