@@ -11,6 +11,7 @@ input_array=[]
 if (len(sys.argv) < 2):
     print ""
     print "Please input list items"
+    print "here is change"
     print "\nExample: ./bubblesort.py <item1> [item2] [item3] [item4] ..."
     quit()
 i=1
