@@ -41,6 +41,7 @@ time1 = time.time()
 arrayResult = str(bubbleSort(input_array))
 #sorted array after bubble sort
 print ""
+print "new change"
 print "Sorted after " + str(count) + " tries."
 print "Sorted:  " + arrayResult 
 print "---"
