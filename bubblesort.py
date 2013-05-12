@@ -45,4 +45,7 @@ print "new change"
 print "Sorted after " + str(count) + " tries."
 print "Sorted:  " + arrayResult 
 print "---"
+a="sss"
+b="bbb"
+print a+b
 print "Overall Time: " + str(time.time()-time1) + " seconds"
